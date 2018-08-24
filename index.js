@@ -9,4 +9,8 @@ const setThisWithCall = function (fn, object, value) {
 
 const setThisWithApply = function (fn, object, argument) {
   return fn.apply(object, argument)
-} 
+}
+
+const returnNewFunctionOf = function (fn, object) {
+  return fn.bind(object)
+}
