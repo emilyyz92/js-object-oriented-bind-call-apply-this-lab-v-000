@@ -1,4 +1,4 @@
 //Your code here
-const invokeFunction = function () {
+const justInvoke = function () {
   return this;
 }
